@@ -8,8 +8,8 @@ public class PercolationUF implements IPercolate {
     private final int VBOTTOM;
 
     /**
-     * Initialize a grid so that no cells are open, initialize and store finder in myFinder
-     * set values for final values VTOP and VBOTTOM
+     * Initialize a grid so that no cells are open, initialize and
+     * store finder in myFinder, set values for final values VTOP and VBOTTOM
      * @param finder IUnionFind object to keep track of open and full cells
      * @param size is the size of the simulated (square) grid
      */
@@ -82,7 +82,8 @@ public class PercolationUF implements IPercolate {
     }
 
     /**
-     * Checks if the (row,col) cell is full by checking if it is connected to VTOP using myFinder
+     * Checks if the (row,col) cell is full by checking
+     * if it is connected to VTOP using myFinder
      *
      * @param row
      *            row index in range [0,N-1]

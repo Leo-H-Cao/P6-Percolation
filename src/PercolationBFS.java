@@ -13,7 +13,7 @@ public class PercolationBFS extends PercolationDFSFast{
     }
 
     /**
-     * Helper method to mark all cells that are open and reachable from (row,col),
+     * Marks all cells that are open and reachable from (row,col),
      * using a Queue and a breadth-first-search (BFS) approach.
      * @param row is the row coordinate of the cell being checked/marked
      * @param col is the col coordinate of the cell being checked/marked
